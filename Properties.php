@@ -14,7 +14,7 @@ echo "Country : $person->country" . PHP_EOL;
 
 $person2 = new Person();
 $person2->name = "Alief";
-$person2->address = "JawaTimur";
+$person2->address = null;
 
 var_dump($person2);
 
