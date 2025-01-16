@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 require_once "data/Person.php";
 
@@ -8,4 +8,4 @@ $alief->sayHello("Mary");
 
 $chandra = new Person();
 $chandra->name = "Chandra";
-$chandra->sayHello(null);
+$chandra->sayHello(null);  // Ini seharusnya berhasil karena tipe parameter sudah diubah menjadi ?string
