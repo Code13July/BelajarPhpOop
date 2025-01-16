@@ -8,6 +8,6 @@ class Person
 
     function sayHello(string $name)
     {
-        echo "Hallo $name" . PHP_EOL;
+        echo "Hello $name" . PHP_EOL;
     }
 }
