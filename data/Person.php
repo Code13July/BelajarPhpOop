@@ -2,6 +2,8 @@
 
 class Person 
 {
+    const AUTHOR = "Code13July";
+    
     public string $name;
     public ?string $address = null;
     public string $country = "Indonesia";
