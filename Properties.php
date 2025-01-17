@@ -2,7 +2,7 @@
 
 require_once "data/Person.php";
 
-$person = new Person();
+$person = new Person("Alief", "Jawa Timur");
 $person->name = "Alief";
 $person->address = "JawaTimur";
 
@@ -12,8 +12,8 @@ echo "Nama : $person->name" . PHP_EOL;
 echo "Address : $person->address" . PHP_EOL;
 echo "Country : $person->country" . PHP_EOL;
 
-$person2 = new Person();
-$person2->name = "Alief";
+$person2 = new Person("Chandra", null);
+$person2->name = "Chandra";
 $person2->address = null;
 
 var_dump($person2);
