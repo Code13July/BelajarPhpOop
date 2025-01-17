@@ -3,7 +3,7 @@
 namespace Data\One {
     class Conflict 
     {
-
+        
     }
 }
 
