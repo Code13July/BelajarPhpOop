@@ -1,11 +1,15 @@
-<?php 
+<?php
 
-class Conflict
-{
+namespace Data\One {
+    class Conflict 
+    {
 
+    }
 }
 
-class Conflict
-{
-    
+namespace Data\Two {
+    class Conflict 
+    {
+
+    }
 }
